@@ -1,0 +1,111 @@
+.contact {
+    height: 100vh;
+    min-height: fit-content;
+    width: 100vw;
+    background-color: rgb(255, 87, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.contacttext {
+    height: 20vh;
+    width: 70vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
+
+.call {
+    color: rgb(12, 12, 106);
+    background: linear-gradient(135deg, white, rgb(230, 172, 14));
+    box-shadow: -3px -1px 14px 5px rgb(20, 22, 175);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.form-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffffff;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #100647;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+form{
+    border: 2px solid black;
+    padding: 30px;
+    width: 500px;
+    border-radius: 40px;
+    background: linear-gradient(135deg,white,yellow);
+}

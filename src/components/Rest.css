@@ -1,0 +1,97 @@
+.Cb_body{
+    background-color: rgb(255, 87, 34);
+    min-height: 100vh;
+}
+
+
+
+.restbody{
+    display: flex;
+    column-gap: 60px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    background-color: rgb(255, 87, 34);
+    width: 100vw;
+    
+}
+
+
+
+
+
+
+.restcard {
+    margin: 5px;
+    padding: 2px;
+    border-radius: 17px;
+    background-color: aliceblue;
+   
+    width: 25%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -5px -4px 20px black;
+}
+
+.restimage {
+    margin-top: 7px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 40px;
+    
+}
+
+.resttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+    width: 83%;
+}
+
+.resthomeh2 {
+    margin: 8px;
+    padding-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.address{
+    margin: 3px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.add{
+    height: 32px;
+    border: 3px solid rgb(9, 4, 146);
+    border-radius: 20px;
+    padding: 15px;
+    
+    background-color: yellow ;
+    font-size: larger ;
+    color: rgb(9, 4, 146);
+    margin: 15px;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+
+}
+
+.add:hover{
+    background-color: rgb(34, 3, 144);
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+}

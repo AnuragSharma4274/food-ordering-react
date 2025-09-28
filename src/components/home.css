@@ -1,0 +1,186 @@
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.food_bg{
+    height: 70vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, rgb(255, 136, 0),rgb(255, 87, 34));
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+}
+
+
+.food_bg .bg_text{
+    background-image: url('../food_bg.jpeg');
+    background-size: cover;
+    padding: 7px;
+    box-shadow: -5px -4px 20px white;
+    border-radius: 20px;
+
+   
+    font-size: 25px;
+   color: azure;
+    height: 90%;
+    width: 90%;
+    left: 120px;
+
+}
+
+.food_bg .bg_text .f{
+    height: 37%;
+    width: 50%;
+   
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 55px;
+    font-weight: bold;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.food_bg .bg_text .s{
+    height: 20%;
+    width: 60%;
+    margin-left: 30px;
+    color: rgb(32, 12, 121);
+    font-weight: 590;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.food_bg .bg_text .t{
+    height: 15%;
+    width: 28%;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 5) ;
+}
+
+.cardbody {
+    box-sizing: border-box;
+    height: 86vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 87, 34);
+
+}
+
+
+
+.card {
+    margin: 5px;
+    padding: 2px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    width: 27%;
+    height: 525px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card:hover {
+    background: radial-gradient(white, rgb(220, 159, 17));
+    box-shadow: -1px 0px 13px 0px black;
+    border: 3px solid rgb(220, 159, 17);
+
+
+
+}
+
+.image {
+    margin: 10px;
+    height: 45%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+img {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.capsules {
+    margin: 5% 5%;
+}
+
+span {
+    border: 2px solid grey;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeh2 {
+    margin: 20px;
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin: 20px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.order {
+    border: 3px solid rgb(21, 0, 255);
+    color: blue;
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.order:hover {
+    background-color: rgb(34, 3, 144);
+    font-size: larger;
+    color: white;
+}
+
