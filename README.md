@@ -1,4 +1,1 @@
-<<<<<<< HEAD
-
 # food-ordering-react
->>>>>>> 
