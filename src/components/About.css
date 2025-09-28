@@ -35,7 +35,7 @@ h1{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(135deg,rgb(253, 254, 254),rgb(230, 172, 14));
+    background: linear-gradient(135deg,rgb(253, 254, 254),rgb(249, 146, 44));
     color: rgb(0, 0, 0);
     box-shadow: -3px -1px 14px 2px rgb(20, 22, 175);
     border-radius: 40px;

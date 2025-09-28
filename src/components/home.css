@@ -93,7 +93,7 @@
     padding: 2px;
     border-radius: 17px;
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(255, 255, 255);
+    
     width: 27%;
     height: 525px;
     overflow: hidden;
@@ -104,10 +104,11 @@
 }
 
 .card:hover {
-    background: radial-gradient(white, rgb(220, 159, 17));
-    box-shadow: -1px 0px 13px 0px black;
-    border: 3px solid rgb(220, 159, 17);
-
+    background: linear-gradient(135deg,white, rgb(249, 146, 44));
+   
+    box-shadow: -3px -4px 15px 0px black;
+    
+    
 
 
 }

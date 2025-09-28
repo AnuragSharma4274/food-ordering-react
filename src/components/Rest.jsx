@@ -176,29 +176,29 @@ const Cakes = () => {
     <div>
       <div className="restbody">
         <Restocard
-          img="https://images.squarespace-cdn.com/content/v1/5e484ab628c78d6f7e602d73/6298b58c-db25-4c96-9a43-6441d90c9542/Pizza-Napoletana.jpeg"
-          restoname="Neapolitan Pizza"
+          img="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/ChocolateTruffleCakeIdeal01.JPG/500px-ChocolateTruffleCakeIdeal01.JPG"
+          restoname="Chocolate Cake"
           restoprice="350"
         />
         <Restocard
-          img="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/1200px-Pizza_Margherita_stu_spivack.jpg"
-          restoname=" Pizza Margherita"
+          img="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTATDEBq0dBe9sh4rdeccA1k9UpUSmA0Kh007G2HHx-wLtaL-48bo4zVKcuHpcl8B18FSpMfMJXIL5XmEqqSJRSwoPjpUx3yw"
+          restoname=" Red Velvet Cake"
           restoprice="450"
         />
         <Restocard
-          img="https://www.seriouseats.com/thmb/c9291mRIx6n1mtaxIRuypUe4mhs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2017__02__20170216-detroit-style-pizza-47-1500x1125-1-233d75e6021048b3bf3cf28bd59d310b.jpg"
-          restoname="Detroit-style Pizza"
-          restoprice="550"
+          img="https://noshingwiththenolands.com/wp-content/uploads/2022/06/Best-Vanilla-Cake-Recipe-finished-on-a-cake-stand-1.jpg"
+          restoname="Vanilla Cake"
+          restoprice="500"
         />
         <Restocard
-          img="https://www.allrecipes.com/thmb/gKD4hlJ26TYEvBTrYzX2SiF95Io=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-15022-veggie-pizza-DDMFS-4x3-hero-3dabf0783ef544eeaa23bdf28b48b178.jpg"
-          restoname="Veggie Pizza"
+          img="https://assets.winni.in/product/primary/2024/3/94573.jpeg?dpr=1&w=500"
+          restoname="Strawberry Cake"
           restoprice="400"
         />
         <Restocard
-          img="https://upload.wikimedia.org/wikipedia/commons/c/c5/Sfincione_palermitano.jpg"
-          restoname="Scilian Pizza"
-          restoprice="300"
+          img="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQvudxLW1T_qd7p0osRzPhXJ7iRnEe87P15nY1mj7RA1JeLu6DcYcGG-10b91EaKbvolI9hII2YucJ3Bwm97uqQFr5gom5AYrS09JurNnI"
+          restoname="Butterskotch Cake"
+          restoprice="500"
         />
       </div>
     </div>

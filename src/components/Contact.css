@@ -34,7 +34,7 @@ h1 {
 
 .call {
     color: rgb(12, 12, 106);
-    background: linear-gradient(135deg, white, rgb(230, 172, 14));
+    background: linear-gradient(135deg, white, rgb(249, 146, 44));
     box-shadow: -3px -1px 14px 5px rgb(20, 22, 175);
     padding: 10px;
     border-radius: 20px;
@@ -107,5 +107,5 @@ form{
     padding: 30px;
     width: 500px;
     border-radius: 40px;
-    background: linear-gradient(135deg,white,yellow);
+    background: linear-gradient(135deg,white,rgb(249, 146, 44));
 }
